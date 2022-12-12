@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./App.module.css";
 import {
   Footer,
   Blog,
@@ -8,17 +7,18 @@ import {
   WhatGPT3,
   Header,
 } from "./container";
+import "./App.css";
 import { CTA, Brand, Navbar } from "./components";
 const App = () => {
   return (
-    <div className={classes.App}>
-      <div className={classes.gradient__bg}>
+    <div className="App">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
       <Brand />
       <WhatGPT3 />
-      <Feature/>
+      <Feature />
       <Possibility />
       <CTA />
       <Blog />

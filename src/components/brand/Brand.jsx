@@ -1,9 +1,7 @@
-import React from 'react'
-import classes from './Brand.module.css'
+import React from "react";
+
 function Brand() {
-  return (
-    <div>Brand</div>
-  )
+  return <div>Brand</div>;
 }
 
-export default Brand
+export default Brand;
