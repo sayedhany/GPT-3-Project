@@ -62,11 +62,11 @@
 }
 .gpt3__navbar-menu_container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-end;
   flex-direction: column;
 
-  text-align: end;
+  text-align: start;
   background: var(--color-footer);
   padding: 2rem;
   position: absolute;

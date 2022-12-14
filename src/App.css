@@ -6,8 +6,9 @@
 }
 body {
   background: var(--color-bg);
-  /* color: white */
+  /* color: #fff; */
 }
+
 /* html {
   font-size: 62.5%;
 } */
