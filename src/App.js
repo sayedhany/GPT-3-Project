@@ -11,7 +11,7 @@ import "./App.css";
 import { CTA, Brand, Navbar } from "./components";
 const App = () => {
   return (
-    <div className="App">
+    <main className="App">
       <div className="gradient__bg">
         <Navbar />
         <Header />
@@ -23,7 +23,7 @@ const App = () => {
       <CTA />
       <Blog />
       <Footer />
-    </div>
+    </main>
   );
 };
 
